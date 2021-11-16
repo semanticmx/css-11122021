@@ -1,0 +1,124 @@
+.enlace:link {
+  color: rgb(27, 27, 216);
+}
+
+.enlace:hover {
+  color: white;
+}
+
+.enlace:active {
+  background: black;
+}
+
+.enlace:visited {
+  color: #a53d3d;
+}
+
+.parrafos p:first-child {
+  background: blueviolet;
+  color: #fff;
+}
+
+.parrafos p:last-child {
+  background: black;
+  color: #fff;
+}
+
+.elementos p:first-of-type {
+  background: blueviolet;
+  color: #fff;
+}
+
+.elementos div:last-of-type {
+  background: black;
+  color: #fff;
+}
+
+.lista :nth-child(2) {
+  background: blueviolet;
+  color: #fff;
+}
+
+.lista :nth-child(odd) {
+  background: darkred;
+  color: #fff;
+}
+
+.lista :nth-child(4n) {
+  background: darkcyan;
+  color: #fff;
+}
+
+.lista :nth-last-child(3) {
+  background: #000;
+  color: #fff;
+}
+
+.lista2 p:nth-of-type(2) {
+  background: blueviolet;
+  color: #fff;
+}
+
+.lista2 div:nth-last-of-type(2) {
+  background: black;
+  color: #fff;
+}
+
+.lista3 p:only-child {
+  background: blueviolet;
+  color: #fff;
+}
+
+.lista4 p:only-of-type {
+  background: blueviolet;
+  color: #fff;
+}
+
+#my_id:target {
+  background-color: rgb(128, 128, 128);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.empty:empty {
+  background-color: red;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+:root {
+  background-color: rgb(235, 235, 235);
+}
+
+.pick:not(.not) {
+  background-color: yellow;
+}
+
+input[type="text"]:disabled {
+  border: 1px dotted black;
+  background-color: gray;
+  color: white;
+}
+
+input[type="text"]:enabled {
+  border: 1px solid black;
+}
+
+input[type="checkbox"]:checked {
+  cursor: crosshair;
+}
+
+input[type="text"]:invalid {
+  border-color: red;
+}
+
+input[type="number"]:in-range {
+  background-color: green;
+}
+
+input[type="number"]:out-of-range {
+  background-color: red;
+}

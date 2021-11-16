@@ -1,0 +1,42 @@
+#ab{
+	background-color: #b6b6b6;
+	text-align: center;
+}
+
+#ab::before{
+	content: 'I am before';
+	background-color: darkcyan;
+	display: block;
+	height: 35px;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#ab::after{
+	content: 'I am after';
+	background-color: darkcyan;
+	display: block;
+	height: 35px;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.article > p::first-letter{
+	background-color: yellow;
+	border: solid 2px black;
+	font-size: 3em;
+	float: left;
+	margin-right: 2px;
+	padding: 5px;
+}
+
+.article > p::first-line{
+	font-weight: 750;
+}
+
+.article2 > p::selection{
+	background-color: black;
+	color: white;
+}
