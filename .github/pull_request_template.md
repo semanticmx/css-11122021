@@ -1,15 +1,15 @@
-## What
+## what
 
 - describe the purpose of this PR
 
-## Why
+## why
 
 - why we need this update
 
-## Preview
+## preview
 
-- Preview Screenshot
+- Screenshot Preview 
 
-## References
+## references
 
 - links to related content
