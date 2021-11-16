@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("images/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+header {
+	background-color: #ffb703;
+  width: 100%;
+  height: 60px;
+}
+
+section{
+	background-color: white;
+	height: 200em;
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+h1{
+	color: white;
+	line-height: 60px;
+	text-align: center;
+	text-shadow: 3px 3px black; 
+}
+
+.grupo{
+	border: solid 2px black;
+	float: left;
+	height: 10%;
+	width: 75%;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	padding: 20px;
+}
+
+.grupo{
+	background-image: url("images/download.png");
+	background-size: 50%;
+}
+
+.no-repeat{
+	background-repeat: no-repeat;
+}
+
+.position{
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.multiple{
+	border: solid 2px black;
+	float: left;
+	height: 10%;
+	width: 75%;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	padding: 20px;	
+}
+
+.multiple{
+	background-image: 
+		url("images/download.png"), 
+		url("images/download.png"),
+		url("images/landscape.png");
+	background-repeat: no-repeat;
+	background-size: 25%, 25%, 100% 100%;
+	background-position: bottom right, center;
+}
+
+.attachment{
+	background-attachment: fixed;
+}
+
+.clip{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-clip: content-box;
+	border-width: 10px;
+}
+
+.origin{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-origin: border-box;
+	border-width: 10px;
+}
