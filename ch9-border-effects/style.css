@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkcyan;
+}
+
+header {
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+section {
+  background-color: white;
+  width: 800px;
+  height: 115em;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 10px 20px 40px 80px;
+}
+
+.grupo {
+  border: solid 5px black;
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 225px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.circulo {
+  border-radius: 50%;
+}
+
+.image {
+  border: solid 50px;
+  border-image-source: url("border.png");  
+  width: 225px;
+  height: 225px;
+}
+
+.slice {
+  border-image-slice: 33%;
+}
+
+.repeat {
+  border-image-repeat: round;
+}
+
+.width {
+  border-image-width: 10px;
+}
+
+.outset-none {
+  background-color: black;
+  color: white;
+  hyphens: manual;
+}
+
+.outset {
+  background-color: black;
+  border-image-outset: 20px;
+  color: white;
+}
+
+.dropshadow {
+  border: solid 5px darkred;
+  box-shadow: 2px 2px 6px black, 8px 8px 4px rgb(112, 112, 112);
+}
+
+.inset{
+	box-shadow: inset 8px 8px 6px rgb(112, 112, 112);
+}
