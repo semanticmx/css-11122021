@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Selectors</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Selectors</h1>
+      </header>
+      <main>
+        <div>
+          <label>atrr / attr= / attr~= / attr|= </label>
+          <ul>
+            <li>
+              <a href="" lang="en" rel="no so Exact">I have a similar value</a>
+            </li>
+            <li>
+              <a href="" lang="es" rel="similar but no Exact"
+                >I have a similar value</a
+              >
+            </li>
+            <li>
+              <a href="" lang="es" rel="Exact">I'm Exact Value</a>
+            </li>
+            <li>
+              <a href="" lang="es" rel="different">I'm a different value</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <label class="label2">atrr^= / attr$= / attr*=</label>
+          <ul>
+            <li>
+              <a href="" rel="i begin">I begin with "i"</a>
+            </li>
+            <li>
+              <a href="" rel="i have it some where">
+                I have "some" within the attribute</a
+              >
+            </li>
+            <li>
+              <a href="" rel="i'm the last">I have "last" at the end</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <label class="label2">Multiple attributes</label>
+          <ul>
+            <li>
+              <a href="https://www.google.com" rel="this is good example"
+                >I don't have the number 2 in "rel"</a
+              >
+            </li>
+            <li>
+              <a href="https://www.google.com" rel="this is good example 2"
+                >I have both values :D</a
+              >
+            </li>
+            <li>
+              <a href="" rel="this is good example 2"
+                >I don't have https in href</a
+              >
+            </li>
+          </ul>
+        </div>
+        <label class="label2">General & Adjacent Siblings</label>
+        <div>
+          <p>I'm before general & adjacent siblings</p>
+          <h2>I'm h2 element</h2>
+          <p>I'm adjacent sibling</p>
+          <p>I'm General sibling</p>
+          <blockquote>
+            <p>-- I'm not at the same level of h2</p>
+          </blockquote>
+          <p>I'm General sibling</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
