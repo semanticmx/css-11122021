@@ -1,6 +1,6 @@
 ## what
 
-- describe the purpose of this PR
+- describe the purpose of this pull request
 
 ## why
 
@@ -8,7 +8,7 @@
 
 ## preview
 
-- Screenshot Preview 
+- screenshot preview 
 
 ## references
 
