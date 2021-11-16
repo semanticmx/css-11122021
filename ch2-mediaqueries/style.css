@@ -91,6 +91,37 @@ body {
   }
 }
 
+@media (max-width: 450px) {
+  .container {
+    grid-template-rows: repeat(6, auto);
+  }
+
+  .container main {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+  }
+
+  .container aside {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+  }
+
+  .container .widget1 {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+  }
+
+  .container .widget2 {
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+  }
+
+  .container footer {
+    grid-column: 1 / 4;
+    grid-row: 6 / 7;
+  }
+}
+
 @media (max-height: 500px) and (orientation: landscape) {
   .container {
     width: 100vw;
