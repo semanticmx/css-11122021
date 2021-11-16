@@ -1,0 +1,65 @@
+header {
+  background-color: rgb(221, 221, 221);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 800px;
+}
+
+section {
+  background-color: rgb(221, 221, 221);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  height: 400px;
+  width: 800px;
+}
+
+#text1 {
+  margin: 5px;
+  text-shadow: 3px 3px rgb(80, 80, 80);
+}
+
+#text2 {
+  margin: 5px;
+  text-shadow: 3px 3px 3px rgb(80, 80, 80);
+}
+
+#text3 {
+  color: darkred;
+  margin: 5px;
+  padding-bottom: 10px;
+  text-shadow: 0 2px black, 0 4px black, 0 6px black, 0 8px 0 black;
+}
+
+#restrict {
+  margin: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+
+p {
+  margin: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+#align {
+  text-align-last: right;
+}
+
+#wrap {
+  overflow-wrap: break-word;
+}
+
+#hyphens {
+  hyphens: manual;
+}
+
+#resize {
+  border: 2px solid;
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+  overflow: auto;
+  resize: both;
+}
