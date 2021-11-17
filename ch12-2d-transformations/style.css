@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkorange;
+}
+
+header {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 20px;
+  height: 70em;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.grupo {
+  background-color: gray;
+  border: solid 2px black;
+  float: left;
+  font-weight: bold;
+  height: 250px;
+  width: 40%;
+  margin: 50px 4% 4%;
+}
+
+.sub {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: solid 2px black;
+  height: 100%;
+  width: 100%;
+  text-align: right;
+}
+
+.rotate {
+  transform: rotate(10deg);
+}
+
+.origin {
+  transform-origin: right bottom;
+  transform: rotate(10deg);
+}
+
+.translate {
+  transform: translate(20px, 15px);
+}
+
+.scale {
+  transform: scaleX(0.8) scaleY(0.8);
+}
+
+.skew {
+  transform: skewX(15deg);
+}
+
+.matrix {
+  transform: matrix(0.5, 0.87, -0.87, 0.5, 0, 0);
+}
