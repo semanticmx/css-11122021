@@ -7,10 +7,10 @@ header {
 
 section {
   background-color: rgb(221, 221, 221);
-  margin: 0 auto;
-  margin-bottom: 20px;
   height: 400px;
   width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 #text1 {
@@ -34,7 +34,7 @@ section {
   margin: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 p {
