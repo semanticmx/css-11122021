@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 100%, 50%);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: hsl(30, 100%, 45%);
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+section {
+  background-color: hsl(30, 80%, 35%);
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.grupo {
+  border: solid 3px black;
+  float: left;
+  font-weight: bold;
+  height: 300px;
+  width: 39%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.sq {
+  background-image: url("squirtle.png");
+  background-size: 100% 100%;
+}
+
+.opacity {
+  background-color: white;
+  font-size: 40px;
+  height: 200px;
+  line-height: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  opacity: 0.5;
+}
+
+.rgba {
+  background-color: rgba(255, 255, 255, 0.5);
+  line-height: 200px;
+  height: 200px;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dropshadow {
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+}
+
+.ccolor {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.5);
+  line-height: 200px;
+  height: 200px;
+  font-size: 27px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cc {
+  border: solid 3px currentColor;
+  color: rgb(209, 34, 34);
+}
+
+.cc h1 {
+  font-size: 30px;
+}
