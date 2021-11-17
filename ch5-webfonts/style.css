@@ -8,8 +8,8 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
-  width: 80vh;
   height: 100vh;
+  width: 80vh;
   margin: auto;
 }
 
@@ -19,8 +19,8 @@
   color: white;
   display: flex;
   font-size: 4ch;
-  height: 7vh;
-  margin-bottom: 40px;
+  height: 10vh;
+  margin-bottom: 20px;
   padding: 5px;
 }
 
@@ -43,13 +43,18 @@
 /* --------------- Webfonts --------------- */
 
 @font-face {
-  font-family: "Cream";
+  font-family: "cream";
   src: url("fonts/Cream.ttf") format("truetype");
-  font-stretch: 1% 500%;
 }
 
 @font-face {
-  font-family: "Birds";
+  font-family: "creams";
+  font-stretch: 1% 500%;
+  src: url("fonts/Cream.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "birds";
   font-style: italic;
   src: url("fonts/Birds.ttf") format("truetype");
 }
@@ -61,12 +66,12 @@
   src: url("fonts/statik.ttf") format("truetype");
 }
 
-h1 {
-  font-family: "Cream";
+#h1head {
+  font-family: "cream";
 }
 
 #italic {
-  font-family: "Birds";
+  font-family: "birds";
 }
 
 #bulletproof {
@@ -92,16 +97,15 @@ p {
 }
 
 .create {
-  font-family: sans-serif;
   margin-bottom: 20px;
 }
 
-.condensed {
-  font-stretch: ultra-condensed;
+#condensed {
+  font-family: cream, sans-serif;
 }
 
-.expanded {
-  font-stretch: ultra-expanded;
+#expanded {
+  font-family: creams, sans-serif;
 }
 
 .smallcaps {
