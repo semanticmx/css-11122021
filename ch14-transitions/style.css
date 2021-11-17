@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkorange;
+}
+
+header {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 20px;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.contenedor {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+}
+
+.grupo {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  float: left;
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  justify-content: center;
+}
+
+.one {
+  transition-property: background-color, transform;
+}
+
+.one:hover {
+  background-color: grey;
+  transform: rotate(45deg);
+}
+
+.two {
+  transition-property: background-color, transform;
+  transition-duration: 1000ms;
+}
+
+.two:hover {
+  background-color: grey;
+  transform: rotate(45deg);
+}
+
+.three {
+  transition-property: background-color, color, font-size, transform;
+  transition-duration: 1000ms;
+  transition-delay: 700ms;
+}
+
+.three:hover {
+  background-color: grey;
+  color: darkred;
+  font-size: 20px;
+  transform: rotate(45deg);
+}
+
+.container {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container:hover .box {
+  width: 100%;
+}
+
+.box {
+  align-items: center;
+  display: flex;
+  border: solid 1px black;
+  color: white;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  transition-duration: 2000ms;
+  transition-property: width;
+}
+
+.four {
+  background-color: darkred;
+  transition-timing-function: linear;
+}
+
+.five {
+  background-color: darkorange;
+  transition-timing-function: ease-in;
+}
+
+.six {
+  background-color: darkgreen;
+  transition-timing-function: ease-out;
+}
+
+.seven {
+  background-color: darkslateblue;
+  transition-timing-function: ease-in-out;
+}
+
+.crate {
+  background-color: grey;
+  background-image: url("car.png");
+  background-size: 25%;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  height: 175px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@keyframes move {
+  from {
+    background-position: bottom left;
+  }
+  50% {
+    background-position: bottom center;
+  }
+  to {
+    background-position: bottom right;
+  }
+}
+
+.eight:hover {
+  animation-name: move;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 250ms;
+}
+
+.nine:hover {
+  animation-name: move;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 250ms;
+  animation-iteration-count: 3;
+}
+
+.ten:hover {
+  animation-name: move;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 250ms;
+  animation-iteration-count: 3;
+  animation-direction: reverse;
+}
+
+.eleven:hover {
+  animation-name: move;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 250ms;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+}
+
+.twelve {
+  animation-name: move;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 250ms;
+  animation-iteration-count: infinite;
+}
+
+.twelve:hover {
+  animation-play-state: paused;
+}
