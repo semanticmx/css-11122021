@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkcyan;
+}
+
+header {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 20px;
+  height: 125em;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.grupo {
+  border: solid 2px black;
+  float: left;
+  height: 250px;
+  width: 40%;
+  margin: 20px 4% 4%;
+}
+
+.linear {
+  background-image: linear-gradient(black, white);
+}
+
+.diagonal {
+  background-image: linear-gradient(to top, black, white);
+}
+
+.extcolor {
+  background-image: linear-gradient(black, white, black);
+}
+
+.pct {
+  background-image: linear-gradient(black, white 75%, black);
+}
+
+.rlg {
+  background-image: repeating-linear-gradient(white, black 25%);
+}
+
+.radial {
+  background-image: radial-gradient(white, black);
+}
+
+.position {
+  background-image: radial-gradient(circle at 10% 50%, white, black);
+}
+
+.size {
+  background-image: radial-gradient(circle 40px, white, black);
+}
+
+.multcolor {
+  background-image: radial-gradient(circle 80px, white, black, white, black);
+}
+
+.rrg {
+  background-image: repeating-radial-gradient(
+    circle farthest-corner at right top,
+    black,
+    white 10%,
+    black 15%
+  );
+}
+
+.mltlinear {
+  background-image: linear-gradient(
+      to right bottom,
+      black,
+      white 50%,
+      transparent 50%
+    ),
+    linear-gradient(to left bottom, black, white 50%, black 50%);
+}
+
+.mltradial {
+  background-image: radial-gradient(
+      42px circle at 20% 50%,
+      white,
+      black 95%,
+      transparent
+    ),
+    radial-gradient(42px circle at 50% 50%, white, black 95%, transparent),
+    radial-gradient(42px circle at 80% 50%, white, black 95%, transparent),
+    linear-gradient(to right bottom, darkred, white 80%);
+}
