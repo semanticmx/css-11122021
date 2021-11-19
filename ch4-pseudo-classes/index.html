@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-Clases</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/pseudoclass.css" />
+    <link rel="stylesheet" href="css/pseudoelements.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="titulo">Pseudo-clases</h1>
+      </header>
+      <main>
+        <div class="grupo">
+          <label>:active / :link / :visited / :hover</label>
+          <a class="enlace" href="#">Ir a página web!</a>
+          <a class="enlace" href="https://www.google.com">Ir a Google!</a>
+        </div>
+        <div class="grupo">
+          <label>:first-child / :last-child</label>
+          <div class="parrafos">
+            <p>First-Child</p>
+            <p>Second pharagraph</p>
+            <p>Last-Child</p>
+          </div>
+        </div>
+        <div class="grupo">
+          <label>:first-of-type / :last-of-type</label>
+          <div class="elementos">
+            <div>First Type: div</div>
+            <p>First Type: pharagraph</p>
+            <span>First Type: span</span>
+            <p>Last Type: pharagraph</p>
+            <div>Last Type: div</div>
+            <span>Last Type: span</span>
+          </div>
+        </div>
+        <div class="grupo">
+          <label>:nth-child() / :nth-last-child</label>
+          <ul class="lista">
+            <li>I'm Option #1</li>
+            <li>I'm Option #2</li>
+            <li>I'm Option #3</li>
+            <li>I'm Option #4</li>
+            <li>I'm Option #5</li>
+            <li>I'm Option #6</li>
+            <li>I'm Option #7</li>
+            <li>I'm Option #8</li>
+          </ul>
+        </div>
+        <div class="grupo">
+          <label>:nth-of-type() / :nth-last-of-type()</label>
+          <div class="lista2">
+            <div>I'm a div</div>
+            <p>I'm the first pharagraph</p>
+            <p>I'm the second pharagraph</p>
+            <span>I'm a span</span>
+            <p>I'm the third pharagraph</p>
+            <div>I'm the second div</div>
+          </div>
+        </div>
+        <div class="grupo">
+          <label>:only-child</label>
+          <div class="lista3">
+            <p>I'm the only child</p>
+          </div>
+        </div>
+        <div class="grupo">
+          <label>:only-of-type</label>
+          <div class="lista4">
+            <div>I'm a div</div>
+            <p>I'm the only pharagraph on the list</p>
+            <div>I'm a div.</div>
+            <div>I'm a div.</div>
+          </div>
+        </div>
+        <div class="grupo">
+          <label>:target</label>
+          <h4 id="my_id">I Can Move!</h4>
+          <a id="link" href="#my_id">Click here</a>
+        </div>
+        <div class="grupo">
+          <label>:empty</label>
+          <div class="empty"></div>
+          <div class="notempty">Not Empty!</div>
+          <div class="empty"></div>
+        </div>
+        <div class="grupo">
+          <div>
+            <label>:not()</label>
+            <div class="pick">Pick me :D</div>
+            <div class="pick not">Don't pick me uwu</div>
+            <div class="pick">Pick me :D</div>
+          </div>
+        </div>
+        <div class="grupo">
+          <div>
+            <form action="">
+              <fieldset>
+                <legend>UI Element State</legend>
+                <input type="text" value="disabled..." disabled />
+                <input type="text" value="enable..." />
+                <input type="checkbox" checked="checked" />
+                <input type="text" required />
+                <input type="number" min="2" max="8" />
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <div class="grupo">
+          <h1 class="titulo">Pseudo-Elements</h1>
+          <label>::after / ::before</label>
+          <div>
+            <label id="ab">It goes inside</label>
+          </div>
+        </div>
+        <div class="grupo">
+          <label>::first-line / ::first-letter</label>
+          <div class="article">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div class="grupo">
+          <label>::selection</label>
+          <div class="article2">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
