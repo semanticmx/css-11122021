@@ -7,11 +7,12 @@ The position of the shadow is set using the x- and y- coordinates as a cartesian
 ```
 	E { text-shadow: x y; }
 ```
+
 Real example:
 
 ```
-	h1{ 
-		text-shadow: 3px 3px #BBB; 
+	h1{
+		text-shadow: 3px 3px #BBB;
 	}
 ```
 
@@ -20,8 +21,8 @@ Real example:
 This option sets the extent of a blur effect on the shadow and must be used after the offset values
 
 ```
-	#text2{ 
-		text-shadow: 3px 3px 3px #BBB; 
+	#text2{
+		text-shadow: 3px 3px 3px #BBB;
 	}
 ```
 
@@ -31,7 +32,6 @@ a length unit; the higher the value, the wider (and lighter) the blur.
 ### Multiple shadows
 
 Just supply extra values to the property, using commas to separate them.
-
 
 ```
 	E { text-shadow: value, value, value; }
@@ -63,6 +63,7 @@ The text aling property let us aling the text in whatever way we want, the synta
 		text-align-last: right;
 	}
 ```
+
 The text-align-last property, lets you set the alignment of the last (or only) line of text in a justified block
 
 ## Controlling Line Wrapping
@@ -90,6 +91,7 @@ Hyphens indicate where the break in a word occurs. It has three values; Manual, 
 		hyphens: manual;
 	}
 ```
+
 ### Resizing ELements
 
 This property lets you control an element’s dimensions by providing a handle with which you can drag the element out to a different size.
