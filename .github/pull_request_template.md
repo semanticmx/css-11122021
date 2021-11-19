@@ -10,6 +10,10 @@
 
 - screenshot preview 
 
+## preview
+
+- mobile and tablet preview 
+
 ## references
 
 - links to related content
