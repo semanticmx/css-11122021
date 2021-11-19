@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 20px;
+  height: 100vh;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.container header {
+  background-color: #1c3144;
+  color: white;
+  height: 10vh;
+  padding: 10px;
+}
+
+.container main {
+  background-color: #ffba08;
+  height: 120vh;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+label {
+  border-bottom: solid 1px #1c3144;
+  display: block;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.label2 {
+  margin-top: 50px;
+}
+
+ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+/* --------------- Selectors --------------- */
+
+a[rel] {
+  color: darkcyan;
+  font-size: 20px;
+}
+
+a[rel~="Exact"] {
+  color: whitesmoke;
+}
+
+a[rel="Exact"] {
+  color: darksalmon;
+}
+
+a[lang|="es"] {
+  background-color: #1c3144;
+}
+
+a[rel^="i"] {
+  color: white;
+  background-color: #1c3144;
+}
+
+a[rel$="last"] {
+  color: darkolivegreen;
+}
+
+a[rel*="some"] {
+  color: darkgoldenrod;
+}
+
+a[href^='https://'][rel$='2']
+{
+  color: darkgrey;
+  background-color: #1c3144;
+}
+
+h2 + p {
+  font-weight: bolder;
+} /* Adjacent Sibling */
+h2 ~ p {
+  font-style: italic;
+} /* General Sibling */
