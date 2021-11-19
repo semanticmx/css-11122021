@@ -10,7 +10,7 @@
 
 - screenshot preview 
 
-## preview
+## responsive
 
 - mobile and tablet preview 
 
