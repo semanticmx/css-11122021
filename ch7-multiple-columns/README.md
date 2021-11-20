@@ -2,8 +2,7 @@
 
 You can divide your content into columns using two methods: either prescriptively, by setting a specific number of columns, or dynamically, by specifying the width of columns and allowing the browser to calculate how many columns will fit into the width of the parent element.
 
-
-## Prescriptive Columns: column-count 
+## Prescriptive Columns: column-count
 
 The simplest way to divide your content into equally distributed columns is
 to use the column-count property:
@@ -39,12 +38,13 @@ Real Example:
 ## Varying Distribution of Content Across Columns
 
 By default, content that’s flowed into multiple columns will be balanced as equally as possible across the columns. If you want to change this default behavior, you can do so with the column-fill property.
- 
+
 ```
 	E { column-fill: keyword; }
 ```
 
-***Values***
+**_Values_**
+
 - Balance --Is the default value, tries to make all the columns equal length.
 - Auto --Fills collumns sequentially. The content is flowed into the first column to fill the height and then into the next column until that one is filled, and so on.
 
@@ -80,16 +80,15 @@ The browser place a default 1em gap between each column. However, we can alter t
 
 ### Column Gap
 
- Sets the space between columns
+Sets the space between columns
 
- ```
- 	E { column-gap: length; }
- ```
+```
+	E { column-gap: length; }
+```
 
 ### Column Rule
 
 column-rule property draws a line between columns.
-
 
 ```
 	E {
@@ -109,7 +108,6 @@ Allows to span ceratin elements in multiple columns.
 	  column-span: all;
 	}
 ```
-
 
 ## Containing Elements Within Columns
 
