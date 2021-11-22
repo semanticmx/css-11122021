@@ -1,29 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: darkorange;
-}
-
-header {
-  background-color: white;
-  height: 50px;
-  width: 100%;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-section {
-  background-color: white;
-  border-radius: 20px;
-  height: 70em;
-  width: 75%;
-  margin: 0 auto;
-  margin-bottom: 40px;
-}
-
 .grupo {
   background-color: gray;
   border: solid 2px black;
