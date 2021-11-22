@@ -1,29 +1,10 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
 body {
-  background-image: url("images/background.jpeg");
+  background-image: url("../images/background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   height: 100%;
-}
-
-header {
-  background-color: #ffb703;
-  height: 60px;
-  width: 100%;
-}
-
-section {
-  background-color: white;
-  height: 200em;
-  width: 75%;
-  margin: 0 auto;
-  margin-bottom: 40px;
 }
 
 h1 {
@@ -34,20 +15,12 @@ h1 {
 }
 
 .grupo {
-  border: solid 2px black;
-  float: left;
-  height: 10%;
-  width: 75%;
-  margin-top: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10px;
-  padding: 20px;
-}
-
-.grupo {
-  background-image: url("images/download.png");
+  background-image: url("../images/download.png");
   background-size: 50%;
+  border: solid 1px black;
+  height: 350px;
+  width: 70vw;
+  margin-bottom: 10px;
 }
 
 .no-repeat {
@@ -60,24 +33,20 @@ h1 {
   background-position: top right;
 }
 
-.multiple {
+.multiples {
   border: solid 2px black;
   float: left;
-  height: 10%;
-  width: 75%;
-  margin-top: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10px;
-  padding: 20px;
+  height: 350px;
+  width: 70vw;
 }
 
-.multiple {
-  background-image: url("images/download.png"), url("images/download.png"),
-    url("images/landscape.png");
+.multiples {
+  background-image: url("../images/download.png"), url("../images/download.png"),
+    url("../images/landscape.png");
   background-repeat: no-repeat;
   background-size: 25%, 25%, 100% 100%;
   background-position: bottom right, center;
+  margin-bottom: 10px;
 }
 
 .attachment {
@@ -97,4 +66,23 @@ h1 {
   background-size: 100% 100%;
   background-origin: border-box;
   border-width: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .container header {
+    justify-content: center;
+  }
+
+  .container {
+    width: 100vw;
+  }
+
+  .grupo {
+    background-color: white;
+    width: 100vw;
+  }
+
+  .multiples {
+    width: 100vw;
+  }
 }
