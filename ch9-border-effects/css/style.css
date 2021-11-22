@@ -1,37 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: darkcyan;
-}
-
-header {
-  background-color: white;
-  margin-bottom: 30px;
-}
-
-section {
-  background-color: white;
-  border-radius: 10px 20px 40px 80px;
-  width: 800px;
-  height: 115em;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
-
 .grupo {
+  align-items: center;
+  align-content: center;
   border: solid 5px black;
+  box-sizing: content-box;
+  display: flex;
   float: left;
   height: 300px;
   width: 300px;
-  line-height: 225px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -41,7 +20,7 @@ section {
 
 .image {
   border: solid 50px;
-  border-image-source: url("border.png");
+  border-image-source: url("../image/border.png");
   height: 225px;
   width: 225px;
 }
