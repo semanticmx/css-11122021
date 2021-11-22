@@ -1,0 +1,58 @@
+.grupo {
+  align-items: center;
+  align-content: center;
+  border: solid 3px black;
+  display: flex;
+  font-weight: bold;
+  height: 300px;
+  width: 40vw;
+  justify-content: center;
+  margin: auto;
+}
+
+.text {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 100%;
+}
+
+.sq {
+  background-image: url("../squirtle.png");
+  background-size: 100% 100%;
+}
+
+.opacity {
+  background-color: white;
+  height: 200px;
+  opacity: 0.5;
+}
+
+.rgba {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 200px;
+}
+
+.dropshadow {
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.cc {
+  border: solid 3px currentColor;
+  color: rgb(209, 34, 34);
+}
+
+.ccolor {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.5);
+  height: 200px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .grupo{
+    width: 100vw;
+  }
+}
