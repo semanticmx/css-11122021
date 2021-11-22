@@ -4,7 +4,6 @@
   border: solid 5px black;
   box-sizing: content-box;
   display: flex;
-  float: left;
   height: 300px;
   width: 300px;
   justify-content: center;
