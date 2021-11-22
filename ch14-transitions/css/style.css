@@ -1,35 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-color: darkorange;
-}
-
-header {
-  background-color: white;
-  height: 50px;
-  width: 100%;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-section {
-  background-color: white;
-  border-radius: 20px;
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
-  margin-bottom: 40px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 h1 {
   font-size: 30px;
   line-height: 50px;
   margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .contenedor {
@@ -45,14 +25,12 @@ h1 {
   align-items: center;
   background-color: black;
   display: flex;
-  float: left;
   height: 150px;
   width: 150px;
+  justify-content: center;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
-
-  justify-content: center;
 }
 
 .one {
@@ -87,13 +65,7 @@ h1 {
   transform: rotate(45deg);
 }
 
-.container {
-  margin-bottom: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.container:hover .box {
+.contenedor2:hover .box {
   width: 100%;
 }
 
@@ -131,7 +103,7 @@ h1 {
 
 .crate {
   background-color: grey;
-  background-image: url("car.png");
+  background-image: url("../car.png");
   background-size: 25%;
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -195,4 +167,16 @@ h1 {
 
 .twelve:hover {
   animation-play-state: paused;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .contenedor {
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+  }
+
+  .crate {
+    background-size: 40%;
+  }
 }
