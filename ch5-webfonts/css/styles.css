@@ -1,25 +1,20 @@
 @font-face {
-  font-family: "cream";
-  src: url("fonts/Cream.ttf") format("truetype");
-}
-
-@font-face {
   font-family: "creams";
   font-stretch: 1% 500%; /* Chrome support */
-  src: url("fonts/Cream.ttf") format("truetype");
+  src: url("../fonts/Cream.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "birds";
   font-style: italic;
-  src: url("fonts/Birds.ttf") format("truetype");
+  src: url("../fonts/Birds.ttf") format("truetype");
 }
 
 @font-face {
   font-family: statik;
-  src: url("fonts/static.oet") format("embedded-opentype");
-  src: url("fonts/statik.woff") format("woff");
-  src: url("fonts/statik.ttf") format("truetype");
+  src: url("../fonts/static.oet") format("embedded-opentype");
+  src: url("../fonts/statik.woff") format("woff");
+  src: url("../fonts/statik.ttf") format("truetype");
 }
 
 #h1head {
