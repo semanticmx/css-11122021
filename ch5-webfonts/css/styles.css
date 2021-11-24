@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "creams";
+  font-family: "cream";
   font-stretch: 1% 500%; /* Chrome support */
   src: url("../fonts/Cream.ttf") format("truetype");
 }
@@ -42,13 +42,15 @@ h2.adjusted {
   font-size-adjust: 0.517;
 }
 
-#condensed {
+.stretch{
   font-family: cream, sans-serif;
+}
+
+#condensed {
   font-stretch: ultra-condensed;
 }
 
 #expanded {
-  font-family: creams, sans-serif;
   font-stretch: ultra-expanded;
 }
 
