@@ -10,7 +10,7 @@
 .container header {
   align-items: center;
   background-color: hsl(208, 42%, 19%);
-  color: white;
+  color: #fff;
   display: flex;
   font-size: 4ch;
   height: 10vh;
@@ -37,16 +37,16 @@
     width: 100vw;
   }
 
-  .container main{
+  .container main {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
   }
 
-  .grupo{
+  .grupo {
     width: 100vw;
   }
 
-  .container header{
+  .container header {
     font-size: 2ch;
     justify-content: center;
   }
@@ -76,7 +76,7 @@
     width: 100vw;
   }
 
-  .container header{
+  .container header {
     justify-content: center;
   }
 }
