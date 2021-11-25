@@ -1,0 +1,111 @@
+.contenedor {
+  background-color: rgb(0, 139, 139);
+  border: solid 1px #000;
+  display: flex;
+  height: 200px;
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.one {
+  flex-direction: row;
+}
+
+.two {
+  flex-direction: column;
+}
+
+.three {
+  flex-direction: row-reverse;
+}
+
+#a {
+  order: 1;
+}
+#b {
+  order: 0;
+}
+#c {
+  order: 2;
+}
+#d {
+  order: 4;
+}
+#e {
+  order: 3;
+}
+#f {
+  order: 6;
+}
+#g {
+  order: 5;
+}
+
+.four {
+  flex-direction: row;
+}
+
+.boxes {
+  background-color: rgb(211, 211, 211);
+  border: solid 1px #000;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+}
+
+.box {
+  background-color: rgb(211, 211, 211);
+  border: solid 1px #000;
+  flex-grow: 1;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+}
+
+.create {
+  background-color: rgb(211, 211, 211);
+  border: solid 1px #000;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+}
+
+.create:nth-of-type(2) {
+  background-color: rgb(255, 140, 0);
+  flex-shrink: 10;
+}
+
+.fbasis {
+  align-items: center;
+  align-content: center;
+  background-color: rgb(211, 211, 211);
+  border: solid 1px #000;
+  display: flex;
+  flex-basis: 80vw;
+  justify-content: center;
+}
+
+#justify {
+  justify-content: center;
+}
+
+#align {
+  align-items: center;
+}
+
+.four {
+  flex-wrap: wrap;
+}
+
+.five {
+  flex-wrap: wrap-reverse;
+}
+
+.six {
+  flex-wrap: wrap;
+  align-content: center;
+}
