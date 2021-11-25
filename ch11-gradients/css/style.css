@@ -1,5 +1,5 @@
 .grupo {
-  border: solid 2px black;
+  border: solid 2px #000;
   float: left;
   height: 250px;
   width: 40%;
@@ -7,68 +7,68 @@
 }
 
 .linear {
-  background-image: linear-gradient(black, white);
+  background-image: linear-gradient(#000, #fff);
 }
 
 .diagonal {
-  background-image: linear-gradient(to top, black, white);
+  background-image: linear-gradient(to top, #000, #fff);
 }
 
 .extcolor {
-  background-image: linear-gradient(black, white, black);
+  background-image: linear-gradient(#000, #fff, #000);
 }
 
 .pct {
-  background-image: linear-gradient(black, white 75%, black);
+  background-image: linear-gradient(#000, #fff 75%, #000);
 }
 
 .rlg {
-  background-image: repeating-linear-gradient(white, black 25%);
+  background-image: repeating-linear-gradient(#fff, #000 25%);
 }
 
 .radial {
-  background-image: radial-gradient(white, black);
+  background-image: radial-gradient(#fff, #000);
 }
 
 .position {
-  background-image: radial-gradient(circle at 10% 50%, white, black);
+  background-image: radial-gradient(circle at 10% 50%, #fff, #000);
 }
 
 .size {
-  background-image: radial-gradient(circle 40px, white, black);
+  background-image: radial-gradient(circle 40px, #fff, #000);
 }
 
 .multcolor {
-  background-image: radial-gradient(circle 80px, white, black, white, black);
+  background-image: radial-gradient(circle 80px, #fff, #000, #fff, #000);
 }
 
 .rrg {
   background-image: repeating-radial-gradient(
     circle farthest-corner at right top,
-    black,
-    white 10%,
-    black 15%
+    #000,
+    #fff 10%,
+    #000 15%
   );
 }
 
 .mltlinear {
   background-image: linear-gradient(
       to right bottom,
-      black,
-      white 50%,
-      transparent 50%
+      #000,
+      #fff 50%,
+      rgba(0, 0, 0, 0) 50%
     ),
-    linear-gradient(to left bottom, black, white 50%, black 50%);
+    linear-gradient(to left bottom, #000, #fff 50%, #000 50%);
 }
 
 .mltradial {
   background-image: radial-gradient(
       42px circle at 20% 50%,
-      white,
-      black 95%,
-      transparent
+      #fff,
+      #000 95%,
+      rgba(0, 0, 0, 0)
     ),
-    radial-gradient(42px circle at 50% 50%, white, black 95%, transparent),
-    radial-gradient(42px circle at 80% 50%, white, black 95%, transparent),
-    linear-gradient(to right bottom, darkred, white 80%);
+    radial-gradient(42px circle at 50% 50%, #fff, #000 95%, rgba(0, 0, 0, 0)),
+    radial-gradient(42px circle at 80% 50%, #fff, #000 95%, rgba(0, 0, 0, 0)),
+    linear-gradient(to right bottom, rgb(139, 0, 0), #fff 80%);
 }
