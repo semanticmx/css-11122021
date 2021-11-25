@@ -5,13 +5,12 @@
   grid-gap: 20px;
   margin: auto;
   width: 90vw;
-  
 }
 
 .container header {
   align-items: center;
   background-color: #1c3144;
-  color: white;
+  color: #fff;
   display: flex;
   font-size: 4ch;
   height: 10vh;

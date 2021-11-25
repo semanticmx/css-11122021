@@ -14,7 +14,7 @@ label {
 
 .contenedor {
   align-items: center;
-  color: white;
+  color: #fff;
   display: flex;
   height: 200px;
   width: 100%;
@@ -23,7 +23,7 @@ label {
 
 .grupo {
   align-items: center;
-  background-color: black;
+  background-color: #000;
   display: flex;
   height: 150px;
   width: 150px;
@@ -38,7 +38,7 @@ label {
 }
 
 .one:hover {
-  background-color: grey;
+  background-color: rgb(121, 121, 121);
   transform: rotate(45deg);
 }
 
@@ -48,7 +48,7 @@ label {
 }
 
 .two:hover {
-  background-color: grey;
+  background-color: rgb(121, 121, 121);
   transform: rotate(45deg);
 }
 
@@ -59,8 +59,8 @@ label {
 }
 
 .three:hover {
-  background-color: grey;
-  color: darkred;
+  background-color: rgb(121, 121, 121);
+  color: rgb(139, 0, 0);
   font-size: 20px;
   transform: rotate(45deg);
 }
@@ -72,8 +72,8 @@ label {
 .box {
   align-items: center;
   display: flex;
-  border: solid 1px black;
-  color: white;
+  border: solid 1px #000;
+  color: #fff;
   height: 150px;
   width: 150px;
   justify-content: center;
@@ -82,27 +82,27 @@ label {
 }
 
 .four {
-  background-color: darkred;
+  background-color: rgb(139, 0, 0);
   transition-timing-function: linear;
 }
 
 .five {
-  background-color: darkorange;
+  background-color: rgb(255, 140, 0);
   transition-timing-function: ease-in;
 }
 
 .six {
-  background-color: darkgreen;
+  background-color: rgb(0, 100, 0);
   transition-timing-function: ease-out;
 }
 
 .seven {
-  background-color: darkslateblue;
+  background-color: rgb(72, 61, 139);
   transition-timing-function: ease-in-out;
 }
 
 .crate {
-  background-color: grey;
+  background-color: rgb(128, 128, 128);
   background-image: url("../car.png");
   background-size: 25%;
   background-position: bottom left;
