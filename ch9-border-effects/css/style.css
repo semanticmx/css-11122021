@@ -1,7 +1,7 @@
 .grupo {
   align-items: center;
   align-content: center;
-  border: solid 5px black;
+  border: solid 5px #000;
   box-sizing: content-box;
   display: flex;
   height: 300px;
@@ -37,20 +37,20 @@
 }
 
 .outset-none {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   hyphens: manual;
 }
 
 .outset {
-  background-color: black;
+  background-color: #000;
   border-image-outset: 20px;
-  color: white;
+  color: #fff;
 }
 
 .dropshadow {
-  border: solid 5px darkred;
-  box-shadow: 2px 2px 6px black, 8px 8px 4px rgb(112, 112, 112);
+  border: solid 5px rgb(139, 0, 0);
+  box-shadow: 2px 2px 6px #000, 8px 8px 4px rgb(112, 112, 112);
 }
 
 .inset {
