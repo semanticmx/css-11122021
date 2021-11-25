@@ -1,6 +1,6 @@
 .grupo {
-  background-color: gray;
-  border: solid 2px black;
+  background-color: rgb(128, 128, 128);
+  border: solid 2px #000;
   font-weight: bold;
   height: 300px;
   width: 300px;
@@ -11,7 +11,7 @@
 
 .sub {
   background-color: rgba(255, 255, 255, 0.5);
-  border: solid 2px black;
+  border: solid 2px #000;
   height: 100%;
   width: 100%;
   text-align: right;
@@ -32,22 +32,10 @@
 
 .matrix {
   transform: matrix3d(
-    0.96,
-    -0.26,
-    0,
-    0,
-    0.26,
-    0.96,
-    0,
-    0,
-    0,
-    0,
-    1,
-    0,
-    -10,
-    0,
-    20,
-    1
+    0.96, -0.26, 0, 0,
+    0.26, 0.96, 0, 0,
+    0, 0, 1, 0,
+    -10, 0, 20, 1
   );
 }
 
@@ -74,7 +62,7 @@
 }
 
 .trnstyle {
-  background-color: darkred;
+  background-color: rgb(143, 0, 0);
   height: 50%;
   width: 50%;
   transform: rotateY(50deg);
