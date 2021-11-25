@@ -1,6 +1,6 @@
 .grupo {
-  background-color: gray;
-  border: solid 2px black;
+  background-color: rgb(126, 126, 126);
+  border: solid 2px #000;
   float: left;
   font-weight: bold;
   height: 250px;
@@ -10,7 +10,7 @@
 
 .sub {
   background-color: rgba(255, 255, 255, 0.5);
-  border: solid 2px black;
+  border: solid 2px #000;
   height: 100%;
   width: 100%;
   text-align: right;
