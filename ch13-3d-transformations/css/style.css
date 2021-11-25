@@ -1,0 +1,102 @@
+.grupo {
+  background-color: rgb(128, 128, 128);
+  border: solid 2px #000;
+  font-weight: bold;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  perspective: 700px;
+}
+
+.sub {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: solid 2px #000;
+  height: 100%;
+  width: 100%;
+  text-align: right;
+  transition: all 1s;
+}
+
+.rotate {
+  transform: rotate3d(1, 1, 1, 45deg);
+}
+
+.translate {
+  transform: translate3d(10px, 10px, 100px);
+}
+
+.scale {
+  transform: scaleZ(2) rotateX(50deg);
+}
+
+.matrix {
+  transform: matrix3d(
+    0.96, -0.26, 0, 0,
+    0.26, 0.96, 0, 0,
+    0, 0, 1, 0,
+    -10, 0, 20, 1
+  );
+}
+
+.pov1 {
+  perspective-origin: left bottom;
+}
+
+.pov2 {
+  perspective-origin: right top;
+}
+
+.POV {
+  transform: rotateX(45deg) rotateZ(90deg);
+}
+
+.trans1 {
+  transform: rotateX(45deg) rotateZ(90deg);
+  transform-origin: 50% 0 0;
+}
+
+.trans2 {
+  transform: rotateX(45deg) rotateZ(90deg);
+  transform-origin: 50% 80% 0;
+}
+
+.trnstyle {
+  background-color: rgb(143, 0, 0);
+  height: 50%;
+  width: 50%;
+  transform: rotateY(50deg);
+}
+
+.flat {
+  transform-style: flat;
+  transform: rotateX(45deg) rotateZ(90deg);
+}
+
+.preserve {
+  transform-style: preserve-3d;
+  transform: rotateX(45deg) rotateZ(90deg);
+}
+
+.visible {
+  backface-visibility: visible;
+}
+
+.visible:hover {
+  transform: rotateY(180deg);
+}
+
+.hidden {
+  backface-visibility: hidden;
+}
+
+.hidden:hover {
+  transform: rotateY(180deg);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .grupo {
+    height: 175px;
+    width: 175px;
+  }
+}
