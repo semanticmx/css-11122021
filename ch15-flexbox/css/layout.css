@@ -10,7 +10,7 @@
 .container header {
   align-items: center;
   background-color: #1c3144;
-  color: white;
+  color: #fff;
   display: flex;
   font-size: 3ch;
   height: 10vh;
@@ -37,17 +37,17 @@
     width: 100vw;
   }
 
-  .container header{
+  .container header {
     font-size: 2ch;
   }
 
-  .container main{
+  .container main {
     display: grid;
     grid-gap: 20px;
     padding-top: 40px;
   }
 
-  .contenedor{
+  .contenedor {
     width: 90vw;
   }
 }
