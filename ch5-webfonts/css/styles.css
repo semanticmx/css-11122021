@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "cream";
+  font-stretch: 1% 500%; /* Chrome support */
+  src: url("../fonts/Cream.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "birds";
+  font-style: italic;
+  src: url("../fonts/Birds.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: statik;
+  src: url("../fonts/static.oet") format("embedded-opentype");
+  src: url("../fonts/statik.woff") format("woff");
+  src: url("../fonts/statik.ttf") format("truetype");
+}
+
+#h1head {
+  font-family: "cream";
+}
+
+#italic {
+  font-family: "birds";
+}
+
+#bulletproof {
+  font-family: "statik";
+}
+
+h2 {
+  font-size: 4ch;
+  font-family: monospace, serif;
+}
+
+h2.impact {
+  font-family: Impact, serif;
+}
+
+h2.adjusted {
+  font-size-adjust: 0.517;
+}
+
+.stretch{
+  font-family: cream, sans-serif;
+}
+
+#condensed {
+  font-stretch: ultra-condensed;
+}
+
+#expanded {
+  font-stretch: ultra-expanded;
+}
+
+.smallcaps {
+  font-feature-settings: "smcp" on;
+}
+
+.ligatures {
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-variant-ligatures: common-ligatures;
+}
