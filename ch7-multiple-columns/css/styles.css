@@ -1,5 +1,5 @@
 h1 {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 p {
@@ -16,7 +16,7 @@ label {
 }
 
 .columns {
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px rgb(0, 0, 0);
   column-count: 3;
   height: 150px;
   margin-bottom: 40px;
@@ -24,7 +24,7 @@ label {
 }
 
 .columns-width {
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px rgb(0, 0, 0);
   column-width: 200px;
   height: 150px;
   margin-bottom: 40px;
@@ -32,7 +32,7 @@ label {
 }
 
 .varying-dist {
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px rgb(0, 0, 0);
   column-count: 3;
   column-fill: auto;
   height: 150px;
@@ -41,7 +41,7 @@ label {
 }
 
 .count-width {
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px rgb(0, 0, 0);
   columns: 150px 4;
   height: 150px;
   margin-bottom: 40px;
@@ -49,7 +49,7 @@ label {
 }
 
 .gap {
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px rgb(0, 0, 0);
   columns: 2;
   column-gap: 4em;
   height: 150px;
@@ -58,27 +58,27 @@ label {
 }
 
 .rules {
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px rgb(0, 0, 0);
   column-count: 3;
-  column-rule: 0.3em double silver;
+  column-rule: 0.3em double rgb(189, 189, 189);
   height: 150px;
   margin-bottom: 40px;
   padding-bottom: 40px;
 }
 
 .span {
-  color: darkred;
+  color: rgb(139, 0, 0);
   column-span: all;
   margin-bottom: 10px;
 }
 
 .image {
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px rgb(0, 0, 0);
   columns: 3;
-  height: 200px;
-  width: 800px;
   margin: 0 auto;
   margin-bottom: 40px;
+  height: 200px;
+  width: 800px;
 }
 
 img {
