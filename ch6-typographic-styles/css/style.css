@@ -1,0 +1,54 @@
+.text {
+  display: flex;
+  flex-direction: row;
+}
+
+#text1 {
+  font-size: 5ch;
+  margin-left: 20px;
+  text-shadow: 3px 3px rgb(80, 80, 80);
+}
+
+#text2 {
+  font-size: 5ch;
+  margin-left: 20px;
+  text-shadow: 3px 3px 3px rgb(80, 80, 80);
+}
+
+#text3 {
+  color: darkred;
+  font-size: 5ch;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  text-shadow: 0 1px #000, 0 2px #000, 0 3px #000, 0 4px #000, 0 5px #000,
+    0 6px #000, 0 7px #000, 0 8px #fff;
+}
+
+#restrict {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#align {
+  text-align-last: right;
+}
+
+#wrap {
+  overflow-wrap: break-word;
+}
+
+#hyphens {
+  hyphens: manual;
+}
+
+#resize {
+  background-color: rgb(224, 224, 224);
+  border: 2px solid;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 300px;
+  overflow: auto;
+  resize: both;
+}
