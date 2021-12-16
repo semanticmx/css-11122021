@@ -5,18 +5,18 @@
   display: flex;
   font-weight: bold;
   height: 300px;
-  width: 40vw;
   justify-content: center;
   margin: auto;
+  width: 40vw;
 }
 
 .text {
   align-items: center;
   align-content: center;
   display: flex;
+  font-size: 100%;
   justify-content: center;
   width: 100%;
-  font-size: 100%;
 }
 
 .sq {
