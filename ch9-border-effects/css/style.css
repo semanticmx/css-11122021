@@ -5,12 +5,12 @@
   box-sizing: content-box;
   display: flex;
   height: 300px;
-  width: 300px;
   justify-content: center;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   text-transform: uppercase;
+  width: 300px;
 }
 
 .circulo {
