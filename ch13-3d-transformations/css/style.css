@@ -3,19 +3,19 @@
   border: solid 2px #000;
   font-weight: bold;
   height: 300px;
-  width: 300px;
   margin: 0 auto;
   margin-bottom: 150px;
   perspective: 700px;
+  width: 300px;
 }
 
 .sub {
   background-color: rgba(255, 255, 255, 0.5);
   border: solid 2px #000;
   height: 100%;
-  width: 100%;
   text-align: right;
   transition: all 1s;
+  width: 100%;
 }
 
 .rotate {
@@ -64,8 +64,8 @@
 .trnstyle {
   background-color: rgb(143, 0, 0);
   height: 50%;
-  width: 50%;
   transform: rotateY(50deg);
+  width: 50%;
 }
 
 .flat {
