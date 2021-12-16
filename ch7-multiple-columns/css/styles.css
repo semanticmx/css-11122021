@@ -75,9 +75,9 @@ label {
 .image {
   border-bottom: solid 1px rgb(0, 0, 0);
   columns: 3;
+  height: 200px;
   margin: 0 auto;
   margin-bottom: 40px;
-  height: 200px;
   width: 800px;
 }
 
@@ -119,9 +119,9 @@ img {
   .image {
     border-bottom: none;
     columns: 3;
+    height: 200px;
     margin: 0 auto;
     margin-bottom: 40px;
-    height: 200px;
     width: 800px;
   }
 
@@ -166,9 +166,9 @@ img {
   .image {
     border-bottom: none;
     columns: 3;
+    height: 200px;
     margin: 0 auto;
     margin-bottom: 40px;
-    height: 200px;
     width: 800px;
   }
 
