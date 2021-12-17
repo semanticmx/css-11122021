@@ -1,0 +1,88 @@
+body {
+  background-image: url("../images/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+h1 {
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  text-shadow: 3px 3px #000;
+}
+
+.grupo {
+  background-image: url("../images/download.png");
+  background-size: 50%;
+  border: solid 1px #000;
+  height: 350px;
+  margin-bottom: 10px;
+  width: 70vw;
+}
+
+.no-repeat {
+  background-repeat: no-repeat;
+}
+
+.position {
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.multiples {
+  border: solid 2px #000;
+  float: left;
+  height: 350px;
+  width: 70vw;
+}
+
+.multiples {
+  background-image: url("../images/download.png"), url("../images/download.png"),
+    url("../images/landscape.png");
+  background-repeat: no-repeat;
+  background-size: 25%, 25%, 100% 100%;
+  background-position: bottom right, center;
+  margin-bottom: 10px;
+}
+
+.attachment {
+  background-attachment: fixed;
+}
+
+.clip {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-clip: content-box;
+  border-width: 10px;
+}
+
+.origin {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-origin: border-box;
+  border-width: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .container header {
+    justify-content: center;
+  }
+
+  .container {
+    width: 100vw;
+  }
+
+  .grupo {
+    background-color: #fff;
+    width: 100vw;
+  }
+
+  .multiples {
+    width: 100vw;
+  }
+}
