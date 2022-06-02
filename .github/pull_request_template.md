@@ -10,6 +10,10 @@
 
 - screenshot preview 
 
+## responsive
+
+- mobile and tablet preview 
+
 ## references
 
 - links to related content
